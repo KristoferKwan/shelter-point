@@ -1,0 +1,55 @@
+// Colors
+$gray_custom:       #333333;
+$medium-gray: darken($gray_custom, 5%);
+$medium-dark-gray: darken($gray_custom, 10%);
+$dark-gray:  darken($gray_custom, 10%);
+$darker-gray: darken($dark-gray, 6%);
+$light-gray: lighten($gray_custom, 6%);
+
+$pc-gray:       #333333;
+
+
+// Sizing
+$nav-bar-height:  40px;
+
+
+
+// Media Query Breakpoints (Pulled from the Bootstrap files for ease of use)
+$screen-sm-min:              576px !default;
+$screen-md-min:              768px !default;
+$screen-lg-min:              992px !default;
+$screen-xl-min:              1200px !default;
+
+// $screen-sm-min:              768px !default;
+// $screen-md-min:              992px !default;
+// $screen-lg-min:              1200px !default;
+
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              (575.98px) !default;
+$screen-sm-max:              (767.98px) !default;
+$screen-md-max:              (991.98px) !default;
+$screen-lg-max:              (1199.98px) !default;
+$screen-xl-max:              99999999999999999px !default;
+
+
+
+//From Bootstap Colors
+
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$primary:       $blue !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;

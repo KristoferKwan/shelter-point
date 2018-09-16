@@ -1,0 +1,17 @@
+@import 'variables';
+
+
+.description{
+	background: orange;
+	font-size: 2em;
+	font-weight: bold;
+	height: 5em;
+	align-items: center;
+	color: $light-gray;
+}
+
+.description_text{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
